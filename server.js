@@ -67,11 +67,11 @@ bot.on('inline_query', function(msg){
             id: 1,
             title: "time",
             input_message_content: {
-                message_text: time\n" +
+                message_text: "time\n" +
                 "<code>time</code>",
                 parse_mode: "HTML"
             },
-            description: "time
+            description: "time"
         };
 
         results.push(InlineQueryResultURL);
